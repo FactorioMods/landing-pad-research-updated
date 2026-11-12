@@ -1,9 +1,16 @@
 {
-    "name": "landing-pad-research",
-    "title": "Cargo Pad Bonus Research",
-	"author": "Ghostipedia",
-	"version": "1.0.0",
-	"factorio_version": "2.0",
-	"description": "Adds research for multiple cargo pads per surface",
-	"dependencies": ["base", "? space-age"]
+  "name": "landing-pad-research-updated",
+  "title": "Cargo Pad Bonus Research: Updated",
+  "author": "Ghostipedia; FactorioMods (Factorio 2.1 port)",
+  "version": "1.0.0",
+  "factorio_version": "2.1",
+  "description": "Factorio 2.1 compatibility fork of landing-pad-research. Adds research for multiple cargo pads per surface",
+  "dependencies": [
+    "base >= 2.1.24",
+    "space-age >= 2.1",
+    "! landing-pad-research"
+  ],
+  "migrates_from": [
+    "landing-pad-research"
+  ]
 }

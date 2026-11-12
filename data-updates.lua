@@ -2,7 +2,7 @@ data:extend {{
     type = "technology",
     name = "cargo-landing-pad-capacity",
     localised_description = {"technology-description.cargo-landing-bonus"},
-    icons = util.technology_icon_constant_stack_size("__landing-pad-research__/graphics/technology/cargo-landing-pad-upgrade.png"),
+    icons = util.technology_icon_constant_stack_size("__landing-pad-research-updated__/graphics/technology/cargo-landing-pad-upgrade.png"),
     effects = {
         {
             type = "cargo-landing-pad-count",
