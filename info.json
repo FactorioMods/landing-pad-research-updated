@@ -1,0 +1,9 @@
+{
+    "name": "landing-pad-research",
+    "title": "Cargo Pad Bonus Research",
+	"author": "Ghostipedia",
+	"version": "1.0.0",
+	"factorio_version": "2.0",
+	"description": "Adds research for multiple cargo pads per surface",
+	"dependencies": ["base", "? space-age"]
+}
